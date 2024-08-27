@@ -36,3 +36,5 @@ inserción del texto que será encriptado o desencriptado, y el usuario debe pod
 
 
 ## Mensaje secreto
+
+![Mensaje Secreto](/assets/mensajeSecreto.png)
