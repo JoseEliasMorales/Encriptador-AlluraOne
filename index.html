@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Encriptador/Desencriptador One</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/alura.svg" alt="alura logo">
+    </header>
+    <main class="contenedorPrincipal">
+        <div class="encriptador">
+            <textarea name="" id="textoAEncriptar"  class="textoAEncriptar" placeholder="Ingrese el texto aqui"  rows="7"></textarea>
+            <div class="encriptador--textoYBotones">
+                <p class="encriptador--texto" id="advertencia"><span><img src="./assets/bi_exclamation-circle-fill.svg" alt="atención"></span>Solo letras minusculas y sin acentos</p>
+                <div class="encriptador--botones">
+                    <button class="encriptador--boton encriptar" id="btnEncriptar">Encriptar</button>
+                    <button class="encriptador--boton desencriptar" id="btnDesencriptar">Desencriptar</button>
+                </div>
+            </div>
+        </div>
+        <div class="desencriptador">
+            <div class="desencriptador--imagenTextos">
+                <img src="./assets/Muñeco.svg" alt="imagen de un muñeco con una lupa simulando que busca algo" class="muneco" id="muneco">
+                <div class="desencriptador--tituloTexto">
+                    <p class="desencriptador--titulo" id="tituloDesencriptado">Ningún mensaje fue encontrado</p>
+                    <p class="desencriptador--texto" id="mensajeDesencriptado">Ingresa el texto que desees encriptar o desencriptar.</p>    
+                </div>
+            </div>
+            <button class="encriptador--boton copiar" id="btnCopiar">Copiar</button>
+        </div>
+        
+    </main>
+</body>
+    <script type="text/javascript" src="encriptador.js"></script>
+</html>
